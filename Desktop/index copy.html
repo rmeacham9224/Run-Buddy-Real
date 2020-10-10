@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+<html lang ="en"> 
+    <head> 
+        <meta charset= "UTF-8" /> 
+        <title> Run Buddy woo </title>  
+        <link rel="stylesheet" href="/Users/ryanmeacham/Desktop/projects/assets/css/style.css" /> 
+        <link rel="secondary-style" href="/Users/ryanmeacham/Desktop/projects/assets/css/secondarystyle.css" /> 
+    </head> 
+    <body> 
+        <!--navigation-->
+        <header>
+            <h1> 
+                <a href="/">RUN BUDDY </a>
+            </h1>  
+            <nav>
+                <!--Unordered list element--> 
+                <ul> 
+                    <!--list item element-->
+                    <li>
+                        <!--Anchor element-->
+                        <a href="#what-we-do">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="#what-you-do">What You Do</a>
+                    </li>
+                    <li> 
+                        <a href="#your-trainers">Your Trainers</a>
+                    </li>
+                    <li> 
+                        <a href="#reach-out">Reach Out</a>
+                    </li>
+                </ul>
+            </nav> 
+        </header>
+        
+        <!-- hero/jumbotron--> 
+        <section class="hero">
+            <div class="hero-form"> 
+                <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!--add form element-->
+                <form>
+                    <label for="name">Enter Full Name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                    
+                    <label for="email">Enter email address:</label>
+                    <input type="text" placeholder="Email address" name="email" id="email" class="form-input" />
+                    
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="text" placeholder="Phone number" name="phone" id="phone" class="form-input" />
+                    <p>
+                        Have you ever worked out with a trainer before? 
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        I acknowledge that I am atleast 18 years of acknowledge
+                        <input type="checkbox" name="18-confirm" id="18-yes" />
+                        <label for="18-yes">Yes</label> 
+                    </p>
+                    <button type="submit">
+                        Get Running!
+                    </button>
+                </form>
+            </div>
+        </section> 
+
+        <!--"what we do" section-->
+        <section id="what-we-do" class="intro">
+            <h2 class="section-title primary-border">What We Do</h2>
+            <p>
+                butcher selfies chambray shabby chi gentrify readymade yr Echo Park XOXO Tublr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-rigin Vice fanny pack fixie odd future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings Marfa Schlits sustainable Intelligensio umai deep v craft
+            </p>
+        </section>
+
+        <!--"What You Do" section-->
+        <section id="what-you-do" class="steps">
+            <h2 class="section-title secondary-border">What You Do</h2>
+            <div>
+                <img src="./assets/images/step-1.svg" alt="" />  
+                <h3><span>Step 1: Fill Out the Form Above</span>.</h3>
+                <p>Youre already here so why not?</p>
+            </div> 
+
+            <div>
+                <img src="./assets/images/step-2.svg" alt="" />
+                <h3><span>Step 2: Consult with one of our trainers</span> </h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-3.svg" alt="" />
+                <h3><span>step 3: Get Running.</span></h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-4.svg" alt="" />
+                <h3><span>Step 4: See results.</span></h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            </div>
+        </section>
+
+        <!--"meet the trainers" section-->
+        <section id="your-trainers" class="trainers">
+            <h2 class="section-title primary-border">
+                Meet The Trainers
+            </h2>
+                <article class="trainer">
+                    <img src= "/Users/ryanmeacham/Desktop/projects/assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" /> 
+                    <div class="trainer-bio text-left"> 
+                        <h3>Arron Stephens</h3>
+                        <h4>Speed / Strength</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto placeat dolorum excepturi ipsa, similique esse provident culpa nostrum quas. Omnis voluptates eligendi corporis ea quia nam blanditiis ipsam ut?
+                        </p>
+                    </div>
+                </article>  
+                
+                <!--second trainer bio-->
+                <article class="trainer">
+                    <div class="trainer-bio text-right">
+                        <h3>Joanna Gill</h3>
+                        <h4>Endurance</h4>
+                        <p>fjbndskjfbnsdkj cdjsncjsdncjksnkjsbdsbvchjb khjcsbkjds</p>
+                    </div>
+                    <img src="/Users/ryanmeacham/Desktop/projects/assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+                </article>  
+
+                <!--third trainer bio-->
+                <article class="trainer">
+                    <img src="/Users/ryanmeacham/Desktop/projects/assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
+                    <div class="trainer-bio text-left">
+                        <h3>Harry "the Headband" Smith</h3>
+                        <h4>Strength</h4>
+                        <p>
+                            ujadsknjdsabkjsabdkjnsadjlknasdkjdnsakjdbsa
+                        </p>
+                    </div>
+                </article>
+        </section>
+
+        <!-- "reach out" section--> 
+        <section id="reach-out" class="contact">
+            <h2 class="section-title secondary-border contact">Reach Out</h2>
+            <div class="contact-info">
+                <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.4680706391505!2d-86.7672221496647!3d36.0088617194447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88647af3972ed5cd%3A0xe8803bc16bff250f!2s9224%20Foxboro%20Dr%2C%20Brentwood%2C%20TN%2037027!5e0!3m2!1sen!2sus!4v1602095509336!5m2!1sen!2sus" 
+                 width="" 
+                 height="" 
+                 frameborder="0" 
+                 style="border:0;" 
+                 allowfullscreen="" 
+                 aria-hidden="false" 
+                 tabindex="0"
+                 >
+                </iframe>
+            </div>
+            <div>
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or Concerns before signing up? 
+                    <br />
+                    Let us know and we'll be happy to reach out!
+                </p>
+                <address>
+                    9224 Foxboro Drive <br />
+                    Brentwood, Tn <br />
+                    37027 <br />
+                    P: 555.RUN.BUDZ (555.786.2839)<br />
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io </a>
+                </address>
+            </div>
+        </section>
+        <footer> 
+            <h2>Made with Love by Run Buddy.</h2>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc.
+            </div>
+        </footer>
+    </body> 
+</html>
